@@ -1,27 +1,36 @@
-# Individualv2
+# John Holdings Hotel Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+## Overview
 
-## Development server
+Welcome to the John Holdings Hotel Website, my first Angular project and a personal learning journey in web development. This project represents a hotel website where I've applied fundamental concepts, including page routing, connecting to a Java backend server, fetching and displaying data from a database, implementing admin login functionality, and creating other pages to simulate a realistic hotel site.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+- **Angular:** The frontend of the website is built using Angular, a powerful JavaScript framework for building dynamic web applications.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Java Spring:** The backend server is developed with Java Spring, providing RESTful APIs for communication between the frontend and the database.
 
-## Build
+- **Database:** The application interacts with a database to store and retrieve data for dynamic content on the website.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Key Features
 
-## Running unit tests
+1. **Page Routing:**
+  - Implemented page routing to navigate seamlessly between different sections of the website.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Integration with Java Backend:**
+  - Connected the Angular frontend to a Java Spring backend server, ensuring smooth communication.
 
-## Running end-to-end tests
+3. **Data Retrieval and Display:**
+  - Utilized Angular services to fetch and display dynamic content from the database.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **Admin Login Functionality:**
+  - Implemented a secure admin login system to access privileged areas of the site.
 
-## Further help
+5. **Realistic Page Structure:**
+  - Created additional pages to simulate a comprehensive hotel website, including booking, about, and gallery pages.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Note
+
+This project is part of my ongoing learning process, and I welcome any feedback or suggestions for improvement. Feel free to explore the code and adapt it to your own learning journey.
+
+Happy coding! 🚀

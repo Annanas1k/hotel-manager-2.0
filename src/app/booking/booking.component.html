@@ -1,0 +1,21 @@
+<section class="booking-container">
+  <div class="booking-title">
+    <h1 id="book-title">Together we will choose a pleasant accommodation for you</h1>
+  </div>
+  <div class="rooms-container">
+    <!-- Loop through each room in the 'rooms' array -->
+    <div *ngFor="let room of rooms" class="room-block">
+      <div class="room-img"></div>
+      <div class="room-info">
+        <h1>No. {{ room.roomNumber }}</h1>
+        <h2>Room Type: {{ room.roomType }}</h2>
+        <p>Availability: {{ room.availability ? 'Yes' : 'No' }}</p>
+        <p>Price: ${{ room.price }}</p>
+        <!-- Add a button to book the room -->
+        <div class="container">
+          <button class = "glow-on-hover" type = "button" (click)="bookRoom(room)">Book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
