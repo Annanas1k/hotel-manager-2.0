@@ -4,6 +4,10 @@
 
 Welcome to the John Holdings Hotel Website, my first Angular project and a personal learning journey in web development. This project represents a hotel website where I've applied fundamental concepts, including page routing, connecting to a Java backend server, fetching and displaying data from a database, implementing admin login functionality, and creating other pages to simulate a realistic hotel site.
 
+## Colaborator
+
+BackEnd Developer - https://github.com/LunguIon/HotelManager.git
+
 ## Technologies Used
 
 - **Angular:** The frontend of the website is built using Angular, a powerful JavaScript framework for building dynamic web applications.
